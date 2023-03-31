@@ -9,6 +9,10 @@ const path = require('path');
             use: 'ts-loader',
             exclude: /node_modules/,
         },
+        {
+            test: /\.css$/i,
+            use: ["css-loader"],
+        },
         ],
     },
     resolve: {

@@ -1,4 +1,5 @@
 import "./components/fath";
+import styles from "./components/zcard/c.css"
 import zcard, { Attribute } from "./components/zcard/zcard";
 import { traer_zelda } from "./zdata";
 
